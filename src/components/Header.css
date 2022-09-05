@@ -1,0 +1,79 @@
+
+.header{
+    position:sticky;
+    height:60px;
+    display:flex;
+    text-align: center;
+    background-color: #131921;
+    /* With respect to top and bottom align the things inside in center */
+    align-items: center;
+    /* it will stick in its place as we scroll down */
+  
+     top:0;
+    z-index:100; 
+}
+
+.header__logo{
+    width: 100px;
+    height: 60px;
+    /* Keeps its aspect ratio */
+    object-fit:contain;
+    margin:20px;
+    margin-top: 40px;
+}
+.header-search{
+    /* automattically matching the height of other/all elements in the same div */
+    display: flex;
+    /* flex: 1; */
+    border-radius: 24px;
+    
+   
+}
+.header-search-icon{
+    padding: 5px;
+    background-color: #cd9042;
+}
+.header-search-input{
+    padding: 7px;
+    border: none;
+    width: 900px;
+  
+}
+.header-nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+.header-option{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+}
+.header-option-one{
+    font-size: 12px;
+}
+.header-option-two{
+    font-size: 18px;
+    font-weight: 800;
+    text-decoration: none;
+    color: white;
+}
+.header-option-basket{
+    color: white;
+    display: flex;
+    margin-top: 4px;
+}
+.header-basket-count{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 4px;
+}
+.sign{
+     text-decoration: none;
+     text-decoration: inherit;
+}
+.basketicon{
+    margin-top: 10px;
+    color: aqua;
+}

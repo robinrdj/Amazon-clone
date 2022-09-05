@@ -1,0 +1,21 @@
+.home{
+    display: flex;
+    margin: auto;
+    background-color: rgb(234, 237, 237);
+   
+    /* won't allow u to go past 1500px width */
+    /* max-width: 1500px; */
+    /* justify-content: center; */
+}
+
+.row{
+    display: flex;
+    z-index: 2;
+    justify-content: center;
+}
+.home__image{
+    width: 100%;
+    z-index: -1;
+    margin-bottom: -250px;
+    mask-image: linear-gradient(to bottom, rgb(255, 0, 0) , rgb(227, 193, 0));;
+}
